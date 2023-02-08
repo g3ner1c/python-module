@@ -1,6 +1,6 @@
 import importlib.metadata
 
-from api import (
+from qbreader.api import (
     num_packets,
     packet,
     packet_bonuses,
