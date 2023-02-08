@@ -1,0 +1,21 @@
+[tool.poetry]
+name = "qbreader"
+version = "0.0.8"
+description = "QB Reader API Wrapper"
+authors = ["Rohan Arni", "Sky Hong <g3ner1c-sky@pm.me>", "Geoffrey Wu"]
+license = "MIT"
+readme = "README.md"
+homepage = "https://github.com/qbreader/python-module"
+repository = "https://github.com/qbreader/python-module"
+classifiers=[
+    "Development Status :: 4 - Beta",
+    "Intended Audience :: Developers",
+    "Programming Language :: Python :: 3",
+    "Operating System :: Unix",
+    "Operating System :: MacOS :: MacOS X",
+    "Operating System :: Microsoft :: Windows",
+]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+requests = "^2.28"
