@@ -3,7 +3,7 @@ Accessing the QBreader API with a python wrapper module.
 
 ## Documentation
 
-#### Get a list of sets from the QBreader database 
+#### Get a list of sets from the QBreader database
 
 ```
   set_list()
@@ -47,7 +47,7 @@ This function gets a random question from the QBreader database.
 | `subcategories` | `list` |See https://pastebin.com/McVDGDXg for a full list.| The subcategories to search for. Defaults to []. Leave as an empty list to search all. |
 | `number` | `int` |Any integer. | The number of questions to return. Defaults to None. Leave blank to return 1.|
 
-#### Generate a random name 
+#### Generate a random name
 
 ```
   random_question()
